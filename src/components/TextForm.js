@@ -41,7 +41,7 @@ export default function TextForm(props) {
         }
         
         setText(newText.substring(0,newText.length));
-        props.showAlert("Converted Capitalize Case","Success");
+        props.showAlert("Converted text to Pascal Case","Success");
 
     }
 
@@ -104,7 +104,7 @@ export default function TextForm(props) {
        <button disabled={text.length===0} className={`btn btn-${btn_col} mx-1 my-1`} onClick={handleUpClick}>Convert to Uppercase</button>
        <button disabled={text.length===0} className={`btn btn-${btn_col} mx-1 my-1`} onClick={handleLowClick}>Convert to Lowercase</button>
        <button disabled={text.length===0} className={`btn btn-${btn_col} mx-1 my-1`} onClick={Clear}>Clear Text</button>
-       <button disabled={text.length===0} className={`btn btn-${btn_col} mx-1 my-1`} onClick={handleCapClick}>Convert to Capitalize Case</button>
+       <button disabled={text.length===0} className={`btn btn-${btn_col} mx-1 my-1`} onClick={handleCapClick}>Convert to Pascal Case</button>
        <button disabled={text.length===0} className={`btn btn-${btn_col} mx-1 my-1`} onClick={handleExtraSpaces}>Remove Extra Spaces</button>
        <button disabled={text.length===0} className={`btn btn-${btn_col} mx-1 my-1`} onClick={handleCopy}>Copy Text</button>
 

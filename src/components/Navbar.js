@@ -10,6 +10,9 @@ export default function Navbar(props) {
         <Link className="navbar-brand" to="/Text_Utils-React/">
           {props.title}
         </Link>
+        {/* <Link className="navbar-brand" to="/">
+          {props.title}
+        </Link> */}
         <button
           className="navbar-toggler"
           type="button"
@@ -27,11 +30,17 @@ export default function Navbar(props) {
               <Link className="nav-link" aria-current="page" to="/Text_Utils-React/">
                 Home
               </Link>
+              {/* <Link className="nav-link" aria-current="page" to="/">
+                Home
+              </Link> */}
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/Text_Utils-React/about">
                 {props.about}
               </Link>
+              {/* <Link className="nav-link" to="/about">
+                {props.about}
+              </Link> */}
             </li>
           </ul>
           {/* <form className="d-flex" role="search">
