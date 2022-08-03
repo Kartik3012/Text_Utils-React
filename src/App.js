@@ -83,9 +83,11 @@ function App() {
     <div className="container my-3  ">
     <Routes>
       <Route exact path="/Text_Utils-React/" element={<TextForm heading="Text Utils- Word Counter | Character Counter | Case Converter"  mode={mode}  showAlert={showAlert}/>} />
+      {/* <Route exact path="/" element={<TextForm heading="Text Utils- Word Counter | Character Counter | Case Converter"  mode={mode}  showAlert={showAlert}/>} /> */}
       {/* <TextForm heading="Enter the Text to Analyze"  mode={mode}  showAlert={showAlert}/> */}
       {/* <About mode={mode}/> */}
       <Route exact path="/Text_Utils-React/about" element={<About mode={mode}/>} />
+      {/* <Route exact path="/about" element={<About mode={mode}/>} /> */}
     </Routes>
     </div>
     </Router>
