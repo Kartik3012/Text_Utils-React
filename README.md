@@ -1,10 +1,12 @@
-#ABOUT THE APP
+## ABOUT THE APP
 
 This Utility helps you to analyze and manipulate your text efficiently using different functionalities.It provides instant word and character count so that you can monitor your text limitations and work accordingly. It is a free to use utility which you can avail anytime anywhere. It is compatible with every web browser like Chrome, FireFox, Safari, Brave, Edge, Bing etc. 
 
-###App Webpage:
+### App Webpage:
 
 To use this app click [this github page link](https://kartik3012.github.io/Text_Utils-React/about)
+
+For further help with React follow the documentation below
 
 
 # Getting Started with Create React App
