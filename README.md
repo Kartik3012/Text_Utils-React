@@ -4,7 +4,7 @@ This Utility helps you to analyze and manipulate your text efficiently using dif
 
 ### App Webpage:
 
-To use this app click [this github page link](https://kartik3012.github.io/Text_Utils-React/about)
+To use this app click [this github page link](https://kartik3012.github.io/Text_Utils-React/)
 
 For further help with React follow the documentation below
 
